@@ -59,6 +59,7 @@ i span {
 
 .presentation {
   padding: 1rem;
+  color: #464646;
   background-color: #F5F5F5;
   display: -ms-grid;
   display: grid;
@@ -109,7 +110,6 @@ i span {
   grid-row: 1/4;
 }
 .presentation__title {
-  font-weight: 700;
   text-align: center;
   font-size: 1.5rem;
   margin: 1rem 0;
@@ -136,4 +136,12 @@ i span {
 }
 .presentation__links--item img {
   width: 2rem;
+}
+
+.about {
+  background: #EAF2FD;
+  text-align: center;
+  padding: 1rem;
+  height: auto;
+  color: #464646;
 }
