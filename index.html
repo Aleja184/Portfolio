@@ -5,43 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio-Alejandra Toro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/styles/css/template.css">
 </head>
-<body>
+<body data-spy="scroll" data-target="#navbar" data-offset="57">
     <!--Header-->
     <header>
         <i>
-            <img src="./assets/icon-person-female.png" alt="Icono de persona femenina">
+            <img src="./assets/icons/icon-person-female.png" alt="Icono de persona femenina">
             <span>Alejandra Toro Grisales</span>
         </i>
-        <span>torogrisalesa@gmail.com</span>
+        <a href="mailto:torogrisalesa@gmail.com">torogrisalesa@gmail.com</a>
+        <nav class="navbar">
+            <ul class="navbar__list">
+                <li class="navbar__list--item"><a href="#presentation">Presentation</a></li>
+                <li class="navbar__list--item"><a href="#about">About me</a></li>
+                <li class="navbar__list--item"><a href="#skills">Hard Skills</a></li>
+                <li class="navbar__list--item"><a href="#hobbies">Hobbies</a></li>
+                <li class="navbar__list--item"><a href="#certifications">Certifications</a></li>
+                <li class="navbar__list--item"><a href="#projects">Projects</a></li>
+            </ul>
+        </nav>
     </header>
     <!--/Header-->
     <main>
         <!--Presentation-->
-        <section class="presentation">
-            <img src="" alt="" class="presentacion-image">
-            <h1 class="presentation-title title">Hello, my name is Alejandra Toro Grisales and I am Junior React JS Developer</h1>
-            <h2 class="presentation-description">Actually I am a student of the program ONE - Oracle Next Education in Alura Latam. Also I still
+        <section class="presentation" id="presentation">
+            <img src="" alt="" class="presentacion__image">
+            <h1 class="presentation__title title">Hello, my name is Alejandra Toro Grisales and I am Junior React JS Developer</h1>
+            <h2 class="presentation__description">Actually I am a student of the program ONE - Oracle Next Education in Alura Latam. Also I still
                 learning
             </h2>
-            <ul class="presentation-links">
+            <ul class="presentation__links">
                 <li>
-                    <img src="" alt="">
+                    <img src="./assets/icons/github-icon.svg" alt="GitHub icon">
                     <a href="">GitHub</a>
                 </li>
                 <li>
-                    <img src="" alt="">
+                    <img src="./assets/icons/linkedin-icon.svg" alt="LinkedIn icon">
                     <a href="">LinkedIn</a>
                 </li>
                 <li>
-                    <img src="" alt="">
+                    <img src="./assets/icons/cv-icon.png" alt="CV icon">
                     <a href="">CV</a>
                 </li>
             </ul>
         </section>
          <!--/Presentation-->
           <!--About Me-->
-        <section class="about">
+        <section class="about" id="about">
             <h2 class="about-title title">About me</h2>
             <p class="about-description">I am a responsable and empathy person. I want to still learning about technology, and prove the knowledge than I have been acquiring for myself using platforms of education.
 
@@ -49,83 +63,83 @@
         </section>
          <!--/About Me-->
          <!--Hard Skills-->
-        <section class="skills">
+        <section class="skills" id="skills">
             <h2 class="skills__title title">Hard Skills</h2>
             <ul class="skills__programming">
                 <h2>Programming Languajes</h2>
                 <li>
-                    <img src="./assets/javascript-logo.svg" alt="JavaScript Logo">
+                    <img src="./assets/icons/javascript-logo.svg" alt="JavaScript Logo">
                     <h3>JavaScript</h3>
                 </li>
                 <li>
-                    <img src="./assets/python-logo.svg" alt="Python Logo">
+                    <img src="./assets/icons/python-logo.svg" alt="Python Logo">
                     <h3>Python</h3>
                 </li>
             </ul>
             <ul class="skills__technologies">
                 <h2>Technologies</h2>
                 <li>
-                    <img src="./assets/html-5-logo.svg" alt="Html5 Logo">
+                    <img src="./assets/icons/html-5-logo.svg" alt="Html5 Logo">
                     <h3>HTML5</h3>
                 </li>
                 <li>
-                    <img src="./assets/css3-logo.svg" alt="Css3 Logo">
+                    <img src="./assets/icons/css3-logo.svg" alt="Css3 Logo">
                     <h3>CSS3</h3>
                 </li>
             </ul>
             <ul class="skills__library">
                 <h2>Library</h2>
                 <li>
-                    <img src="./assets/react-logo.svg" alt="React Logo">
+                    <img src="./assets/icons/react-logo.svg" alt="React Logo">
                     <h3>React JS</h3>
                 </li>
             </ul>
             <ul class="skills__version">
                 <h2>Version Control System</h2>
                 <li>
-                    <img src="./assets/git-logo.svg" alt="Git Logo">
+                    <img src="./assets/icons/git-logo.svg" alt="Git Logo">
                     <h3>Git</h3>
                 </li>
             </ul>
             <ul class="skills__preprocessors">
                 <h2>Preprocessors</h2>
                 <li>
-                    <img src="./assets/sass-logo.svg" alt="Sass Logo">
+                    <img src="./assets/icons/sass-logo.svg" alt="Sass Logo">
                     <h3>Sass</h3>
                 </li>
                 <li>
-                    <img src="./assets/pug-logo.svg" alt="Pug Logo">
+                    <img src="./assets/icons/pug-logo.svg" alt="Pug Logo">
                     <h3>Pug</h3>
                 </li>
             </ul>
         </section>
         <!--/Hard Skills-->
-        <!--Hobies-->
-        <section class="hobbies">
+        <!--Hobbies-->
+        <section class="hobbies" id="hobbies">
             <h2 class="hobbies__title title">Hobbies</h2>
             <ul class="hobbies__list">
                 <li>
-                    <img src="./assets/workout-icon.png" alt="Workout icon">
+                    <img src="./assets/icons/workout-icon.png" alt="Workout icon">
                     <h3>Workout</h3>
                 </li>
                 <li>
-                    <img src="./assets/movie-icon.png" alt="Movie icon">
+                    <img src="./assets/icons/movie-icon.png" alt="Movie icon">
                     <h3>Watch movies</h3>
                 </li>
                 <li>
-                    <img src="./assets/book-icon.png" alt="Book icon">
+                    <img src="./assets/icons/book-icon.png" alt="Book icon">
                     <h3>Read</h3>
                 </li>
                 <li>
-                    <img src="./assets/hiking-icon.png" alt="Hiking icon">
+                    <img src="./assets/icons/hiking-icon.png" alt="Hiking icon">
                     <h3>Hiking</h3>
                 </li>
             </ul>
         </section>
         <!--/Hobbies-->
         <!--Certifications-->
-        <section class="certifications">
-            <h2 class="certifications__title title"></h2>
+        <section class="certifications" id="certifications">
+            <h2 class="certifications__title title">Certifications</h2>
             <ul class="certifications__list">
                 <li>
                     <ul>
@@ -149,7 +163,7 @@
         </section>
         <!--/Certifications-->
         <!--Projects-->
-        <section class="projects">
+        <section class="projects" id="projects">
             <h2 class="projects__title">Projects</h2>
             <ul class="projects__list">
                 <li class="projects__list--item">
