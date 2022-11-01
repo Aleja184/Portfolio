@@ -1,0 +1,26 @@
+.skills{
+    background: $background-white;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(3,33.33%);
+    color: $color-principal;
+    justify-items: center;
+    &__title{
+        text-align: center;
+        grid-column: 1/4;
+    }
+
+    ul{
+        margin: 1rem;
+        h2{
+            font-size: 1.5rem;
+        }
+        h3{
+            font-weight: 100;
+            color: $color-principal;
+        }
+    }
+    img{
+        width: 2rem;
+    }
+}
