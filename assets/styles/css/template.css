@@ -13,18 +13,28 @@ ul {
   list-style: none;
 }
 
+.title {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+
+html {
+  scroll-padding-top: 75px;
+}
+
 header {
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: #F5F5F5;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #F5F5F5;
+  height: 75px;
 }
 
 a {
@@ -48,6 +58,9 @@ i span {
   font-family: "Raleway", sans-serif;
 }
 
+.navbar {
+  height: 75px;
+}
 .navbar__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -57,7 +70,13 @@ i span {
   margin: 10px;
 }
 
+.nav-link.active {
+  color: rgba(70, 70, 70, 0.6784313725);
+  text-decoration: underline;
+}
+
 .presentation {
+  margin-top: 75px;
   padding: 1rem;
   color: #464646;
   background-color: #F5F5F5;
@@ -109,11 +128,6 @@ i span {
   -ms-grid-row-span: 3;
   grid-row: 1/4;
 }
-.presentation__title {
-  text-align: center;
-  font-size: 1.5rem;
-  margin: 1rem 0;
-}
 .presentation__description {
   font-size: 1rem;
   font-weight: 100;
@@ -156,6 +170,7 @@ i span {
   grid-template-columns: repeat(3, 33.33%);
   color: #464646;
   justify-items: center;
+  padding: 1rem;
 }
 
 .skills > *:nth-child(1) {
@@ -173,7 +188,6 @@ i span {
   -ms-grid-column: 3;
 }
 .skills__title {
-  text-align: center;
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-column: 1/4;
@@ -190,4 +204,34 @@ i span {
 }
 .skills img {
   width: 2rem;
+}
+
+.hobbies {
+  background: #F5F5F5;
+  width: 100%;
+  color: #464646;
+}
+.hobbies__list {
+  padding: 2rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.hobbies__list img {
+  width: 2rem;
+  padding: 0 auto;
+}
+.hobbies__list--item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }

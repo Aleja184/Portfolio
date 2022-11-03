@@ -1,0 +1,19 @@
+.hobbies{
+    background: $background-white;
+    width: 100%;
+    color: $color-principal;
+    &__list{
+        padding: 2rem 0;
+        display: flex;
+        justify-content: space-around;
+        img{
+            width: 2rem;
+            padding: 0 auto;
+        }
+        &--item{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}

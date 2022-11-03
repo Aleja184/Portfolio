@@ -5,8 +5,8 @@
     grid-template-columns: repeat(3,33.33%);
     color: $color-principal;
     justify-items: center;
+    padding: 1rem;
     &__title{
-        text-align: center;
         grid-column: 1/4;
     }
 

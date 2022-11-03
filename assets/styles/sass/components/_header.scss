@@ -1,9 +1,12 @@
+html{
+    scroll-padding-top: 75px;
+}
 header{
-    width: 100%;
     display: flex;
-    background: $background-white;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    background-color: $background-white;
+    height: 75px;
 }
 
 a{
@@ -22,11 +25,16 @@ i{
     }
 }
 .navbar{
+    height: 75px;
     &__list{
         display: flex;
         &--item{
             margin: 10px;
         }
-    }
+    }    
+}
 
+.nav-link.active{
+    color: $color-principal-hover;
+    text-decoration: underline;
 }
