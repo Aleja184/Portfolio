@@ -1,7 +1,10 @@
 .projects{
+    background: $background-white;
+    margin: 0;
     &__list{
+        margin: 0;
         &--item{
-            margin: 2rem;
+            padding: 2rem;
             display: grid;
             grid-template-columns: 60% 40%;
             grid-template-rows: 50% 50%;
