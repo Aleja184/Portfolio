@@ -1,11 +1,11 @@
 .hobbies{
     background: $background-white;
     width: 100%;
-    color: $color-principal;
     &__list{
         padding: 2rem 0;
         display: flex;
         justify-content: space-around;
+        margin: 0;
         img{
             width: 2rem;
             padding: 0 auto;

@@ -17,6 +17,12 @@ ul {
   text-align: center;
   font-size: 1.5rem;
   padding: 1rem 0;
+  color: #464646;
+}
+
+h3 {
+  font-size: 1.3rem;
+  color: #464646;
 }
 
 html {
@@ -78,7 +84,6 @@ i span {
 .presentation {
   margin-top: 75px;
   padding: 1rem;
-  color: #464646;
   background-color: #F5F5F5;
   display: -ms-grid;
   display: grid;
@@ -209,7 +214,6 @@ i span {
 .hobbies {
   background: #F5F5F5;
   width: 100%;
-  color: #464646;
 }
 .hobbies__list {
   padding: 2rem 0;
@@ -218,6 +222,7 @@ i span {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  margin: 0;
 }
 .hobbies__list img {
   width: 2rem;
@@ -234,4 +239,23 @@ i span {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.certifications {
+  background: #EAF2FD;
+  padding: 1rem 0;
+}
+.certifications__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 1.5rem;
+}
+.certifications__list--item a:hover {
+  text-decoration: none;
+}
+.certifications__list--item img {
+  width: 1rem;
 }

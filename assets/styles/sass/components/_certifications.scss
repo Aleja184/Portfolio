@@ -1,0 +1,17 @@
+.certifications{
+    background:$background-blue;
+    padding: 1rem 0;
+    &__list{
+        display: flex;
+        justify-content: space-around;
+        margin: 1.5rem;
+        &--item{
+            a:hover{
+                text-decoration: none;
+            }
+            img{
+                width: 1rem;
+            }
+        }
+    }
+}
