@@ -32,7 +32,13 @@ i{
         &--item{
             margin: 10px;
         }
-    }    
+    }   
+    @include media(tablet-p-only){
+        display: none;
+    } 
+    @include media(mobile-only){
+        display: none;
+    }
 }
 
 .nav-link.active{

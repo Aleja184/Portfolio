@@ -6,6 +6,13 @@
     color: $color-principal;
     justify-items: center;
     padding: 1rem;
+    @include media(mobile-only){
+        display: flex;
+        flex-wrap: wrap;
+        &__title{
+            width: 100%;
+        }
+    }
     &__title{
         grid-column: 1/4;
     }

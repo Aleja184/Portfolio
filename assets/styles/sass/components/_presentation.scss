@@ -6,6 +6,11 @@
     width: 100%;
     grid-template-columns: 60% 30%;
     grid-template-rows: repeat(3,auto);
+    @include media(mobile-only){
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     &__image{
         width: 100%;
         height: 100%;

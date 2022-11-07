@@ -14,4 +14,19 @@
             }
         }
     }
+    @include media(mobile-only){
+        display: flex;
+        flex-wrap: wrap;
+        &__title{
+            width: 100%;
+        }
+        ul{
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+        }
+        ul > li > ul{
+            margin: 0.5rem 0;
+        }
+    }
 }
