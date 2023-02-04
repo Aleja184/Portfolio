@@ -246,6 +246,7 @@ i span {
 }
 .skills ul {
   margin: 1rem;
+  justify-self: flex-start;
 }
 .skills ul h2 {
   font-size: 1.5rem;
