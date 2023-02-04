@@ -43,6 +43,7 @@ header {
           align-items: center;
   background-color: #F5F5F5;
   height: 75px;
+  width: 100vw;
 }
 
 a {
