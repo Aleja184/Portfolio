@@ -6,6 +6,7 @@
     color: $color-principal;
     justify-items: center;
     padding: 1rem;
+    margin: 0 auto;
     @include media(mobile-only){
         display: flex;
         flex-wrap: wrap;
@@ -16,10 +17,8 @@
     &__title{
         grid-column: 1/4;
     }
-
     ul{
         margin: 1rem;
-        justify-self: flex-start;
         h2{
             font-size: 1.5rem;
         }
