@@ -27,8 +27,10 @@ h3 {
   color: #464646;
 }
 
-html {
+html, body {
   scroll-padding-top: 75px;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
 }
 
 header {
@@ -43,7 +45,6 @@ header {
           align-items: center;
   background-color: #F5F5F5;
   height: 75px;
-  width: 100vw;
 }
 
 a {

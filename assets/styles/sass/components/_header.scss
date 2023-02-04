@@ -1,13 +1,15 @@
-html{
+html,body{
     scroll-padding-top: 75px;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
 }
+
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: $background-white;
     height: 75px;
-    width: 100vw;
 }
 
 a{
